@@ -2,8 +2,8 @@ $(document).ready()
 
 function buildingQueryURL() {
     var weatherData = $(this).attr("data-name");
-    var queryURL = "api.openweathermap.org/data/2.5/forecast?q={city name}&appid={your api key}";
-    var queryParams = {"api-key": "77f9fbbb114dc063ba452cf5bcc8f3cf" };
+    var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q={city name}" + + "&appid=77f9fbbb114dc063ba452cf5bcc8f3cf";
+    
 
     // Ajax call for searching cities. 
     $.ajax({
