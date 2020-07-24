@@ -26,30 +26,3 @@ button {
     border-radius: 8px;
 }
 
-.card-body {
-    font-size: 20x;
-}
-
-/* Search History Card */ 
-.card1 {
-    width: 20%;
-    border: 3px solid Black;
-    padding: 50px;
-    margin: 20px;
-}
-
- /* Current Weather Card */
-.card2 {
-    width: 20%;
-    border: 3px solid Black;
-    padding: 50px;
-    margin: 20px;
-}
-
- /* 5 Day Forecast Card */
-.card3 {
-    width: 97%;
-    border: 3px solid black;
-    padding: 50px;
-    margin: 20px;
-}

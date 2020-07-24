@@ -3,12 +3,14 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Google Fonts PT Serif-->
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Bulma Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <!--Style.CSS-->
     <link rel="stylesheet" href="style.css">
 
@@ -20,7 +22,7 @@
 
     <h2>Weather Dashboard!</h2>
     <br>
-    
+
     <!--Search-->
     <div class="container">
         <h3>Search for a City:</h3>  
@@ -30,34 +32,32 @@
         </form>
     </div>
 
-    <!--Search History Card-->
-      <div class="col-3-md">
-        <div class="card1">
-          <div class="card-body">
-           Search History:
+    <br>
+     
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary">
+              <p class="title">Vertical...</p>
+              <p class="subtitle">Top tile</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">...tiles</p>
+              <p class="subtitle">Bottom tile</p>
+            </article>
           </div>
-        </div>
-      </div>  
-    
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
 
-    <!--Current Weather Card-->
-      <div class="col-8-xlg">
-        <div class="card2">
-          <div class="card-body">
-            Current Weather in desired City
-          </div>
-        </div>
-      </div>
-    
 
-    <!--5 Day Forecast Card-->
-      <div class="col-12-md">
-        <div class="card3">
-          <div class="card-body">
-            5 Day Forecast 
-          </div>
-        </div>
-      </div>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9454ae8bef.js" crossorigin="anonymous"></script>
